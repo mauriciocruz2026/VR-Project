@@ -1,0 +1,154 @@
+{
+    "name": "StandardControls",
+    "maps": [
+        {
+            "name": "Gameplay_01",
+            "id": "ecab42df-6c81-48ed-b836-c6992a49f468",
+            "actions": [
+                {
+                    "name": "Action_00",
+                    "type": "Button",
+                    "id": "c0227e02-acab-472f-a15a-583f97822132",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_01",
+                    "type": "Button",
+                    "id": "831c01e1-3ff9-4702-9100-c483a060049e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_02",
+                    "type": "Button",
+                    "id": "7df89f14-7ccc-4ec3-b396-fc4d86e7a463",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_03",
+                    "type": "Button",
+                    "id": "e97637d2-90bc-4742-a408-7f71340be5ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_04",
+                    "type": "Button",
+                    "id": "fbface2b-fd16-4308-bb77-a3ef351efba9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_05",
+                    "type": "Button",
+                    "id": "668657b5-b7fb-4378-a216-f1eaa5cf8ffc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Action_06",
+                    "type": "Button",
+                    "id": "de39d341-9964-4e30-8c0d-3ee5f53eb9db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7b67417-259b-4e28-a6e4-9e9b81aca3e4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_00",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "948beef4-2ca0-41f4-baa9-8dcbce705ff0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_01",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b83cabcb-21c1-4e03-8c5f-202bd8543753",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_02",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13e5bd21-4944-464f-9365-d4b27f37e363",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_03",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6c7867b-3b30-4b74-8b8f-92983f144449",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_04",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ff1b65d-f7ab-493a-ae6f-271b4861b801",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_05",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "162690f7-3654-4d2c-a1c0-89bf63a9a629",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action_06",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
