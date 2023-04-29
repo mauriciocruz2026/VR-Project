@@ -51,6 +51,13 @@ public class Random_Movement: MonoBehaviour
             float Perc = currentLerpTime * speed / lerpTime;
             animal.transform.position = Vector3.Lerp(startMarker, endMarker, Perc);
         }
+
+        //if (animal.GetComponent<SphereCollider>() == null)
+       // {
+         //   SphereCollider sc = animal.AddComponent<SphereCollider>();
+           // sc.isTrigger = true;
+            //sc.radius = 5;
+        //}
     }
    
     // Random_Distance function picks a random number from -50 to 50, which will be used to set x_dir and z_dir for the addition of the 
@@ -69,7 +76,9 @@ public class Random_Movement: MonoBehaviour
             animal.GetComponent<Animator>().Play("run");
             Vector3 direction = endMarker - startMarker;
             Quaternion rotation = Quaternion.LookRotation(direction);
-            transform.rotation = rotation; 
+            transform.rotation = rotation;
+            //Destroy(animal.GetComponent<SphereCollider>());
+
         }
     }
 
