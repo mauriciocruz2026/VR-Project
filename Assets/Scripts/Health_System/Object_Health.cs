@@ -10,6 +10,9 @@ public class Object_Health : MonoBehaviour
     public float sinkSpeed;
     private int delay;
 
+    public AudioSource source;
+    public AudioClip clip;
+
 
     // Start is called before the first frame update
     void Start()
@@ -35,8 +38,8 @@ public class Object_Health : MonoBehaviour
     {
         if (object_State == State.ALIVE)
         {
-            //animator.SetTrigger("Hurt");
-            currHealth -= damage; 
+            currHealth -= damage;
+            source.PlayOneShot(clip);
             if (currHealth <= 0)
             {
                 object_State = State.DYING;
