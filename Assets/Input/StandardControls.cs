@@ -25,21 +25,12 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Gameplay_01"",
-            ""id"": ""ecab42df-6c81-48ed-b836-c6992a49f468"",
+            ""id"": ""9a32095c-66b9-4eef-b781-e74168fd83b1"",
             ""actions"": [
-                {
-                    ""name"": ""Action_00"",
-                    ""type"": ""Button"",
-                    ""id"": ""c0227e02-acab-472f-a15a-583f97822132"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
                 {
                     ""name"": ""Action_01"",
                     ""type"": ""Button"",
-                    ""id"": ""831c01e1-3ff9-4702-9100-c483a060049e"",
+                    ""id"": ""dd1b3b2c-1127-47d8-a9a5-033f8295ad88"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -48,7 +39,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Action_02"",
                     ""type"": ""Button"",
-                    ""id"": ""7df89f14-7ccc-4ec3-b396-fc4d86e7a463"",
+                    ""id"": ""4a18613a-7051-4650-afc4-a19872550731"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -57,7 +48,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Action_03"",
                     ""type"": ""Button"",
-                    ""id"": ""e97637d2-90bc-4742-a408-7f71340be5ad"",
+                    ""id"": ""31250cf8-898e-4419-bc83-ed3f76a04447"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -66,7 +57,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Action_04"",
                     ""type"": ""Button"",
-                    ""id"": ""fbface2b-fd16-4308-bb77-a3ef351efba9"",
+                    ""id"": ""c3028a29-68c8-4e20-8ad6-de1a78c0e848"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -75,7 +66,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Action_05"",
                     ""type"": ""Button"",
-                    ""id"": ""668657b5-b7fb-4378-a216-f1eaa5cf8ffc"",
+                    ""id"": ""cf018ebd-8c95-448d-8312-7e29f6629eeb"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -84,7 +75,16 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Action_06"",
                     ""type"": ""Button"",
-                    ""id"": ""de39d341-9964-4e30-8c0d-3ee5f53eb9db"",
+                    ""id"": ""b64ff153-386e-42ba-9c9d-fc584d805b2b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Action_00"",
+                    ""type"": ""Button"",
+                    ""id"": ""6c4cc758-5098-442d-b8bd-f9cae9066d3b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -94,18 +94,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""a7b67417-259b-4e28-a6e4-9e9b81aca3e4"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Action_00"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""948beef4-2ca0-41f4-baa9-8dcbce705ff0"",
+                    ""id"": ""4340a3ce-39d0-4946-bc3b-4c5ac3ca8de6"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
@@ -116,7 +105,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b83cabcb-21c1-4e03-8c5f-202bd8543753"",
+                    ""id"": ""d1a5ad60-6982-4b6c-8372-3d3aca237e12"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
@@ -127,7 +116,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""13e5bd21-4944-464f-9365-d4b27f37e363"",
+                    ""id"": ""5371c53e-5143-4c1e-b78f-084c9cf005fd"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
@@ -138,7 +127,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b6c7867b-3b30-4b74-8b8f-92983f144449"",
+                    ""id"": ""91a92b2b-8fb5-4ceb-b089-76bad7084bda"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
@@ -149,7 +138,7 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6ff1b65d-f7ab-493a-ae6f-271b4861b801"",
+                    ""id"": ""47b63abc-c917-454d-ae92-188574f24b74"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
@@ -160,12 +149,23 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""162690f7-3654-4d2c-a1c0-89bf63a9a629"",
+                    ""id"": ""99b773bd-a83d-4f6a-8b0b-1a12e447274d"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Action_06"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0fb3c207-ee7c-4c08-9c88-916cc9f20a12"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Action_00"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -176,13 +176,13 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
 }");
         // Gameplay_01
         m_Gameplay_01 = asset.FindActionMap("Gameplay_01", throwIfNotFound: true);
-        m_Gameplay_01_Action_00 = m_Gameplay_01.FindAction("Action_00", throwIfNotFound: true);
         m_Gameplay_01_Action_01 = m_Gameplay_01.FindAction("Action_01", throwIfNotFound: true);
         m_Gameplay_01_Action_02 = m_Gameplay_01.FindAction("Action_02", throwIfNotFound: true);
         m_Gameplay_01_Action_03 = m_Gameplay_01.FindAction("Action_03", throwIfNotFound: true);
         m_Gameplay_01_Action_04 = m_Gameplay_01.FindAction("Action_04", throwIfNotFound: true);
         m_Gameplay_01_Action_05 = m_Gameplay_01.FindAction("Action_05", throwIfNotFound: true);
         m_Gameplay_01_Action_06 = m_Gameplay_01.FindAction("Action_06", throwIfNotFound: true);
+        m_Gameplay_01_Action_00 = m_Gameplay_01.FindAction("Action_00", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -244,24 +244,24 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
     // Gameplay_01
     private readonly InputActionMap m_Gameplay_01;
     private List<IGameplay_01Actions> m_Gameplay_01ActionsCallbackInterfaces = new List<IGameplay_01Actions>();
-    private readonly InputAction m_Gameplay_01_Action_00;
     private readonly InputAction m_Gameplay_01_Action_01;
     private readonly InputAction m_Gameplay_01_Action_02;
     private readonly InputAction m_Gameplay_01_Action_03;
     private readonly InputAction m_Gameplay_01_Action_04;
     private readonly InputAction m_Gameplay_01_Action_05;
     private readonly InputAction m_Gameplay_01_Action_06;
+    private readonly InputAction m_Gameplay_01_Action_00;
     public struct Gameplay_01Actions
     {
         private @StandardControls m_Wrapper;
         public Gameplay_01Actions(@StandardControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Action_00 => m_Wrapper.m_Gameplay_01_Action_00;
         public InputAction @Action_01 => m_Wrapper.m_Gameplay_01_Action_01;
         public InputAction @Action_02 => m_Wrapper.m_Gameplay_01_Action_02;
         public InputAction @Action_03 => m_Wrapper.m_Gameplay_01_Action_03;
         public InputAction @Action_04 => m_Wrapper.m_Gameplay_01_Action_04;
         public InputAction @Action_05 => m_Wrapper.m_Gameplay_01_Action_05;
         public InputAction @Action_06 => m_Wrapper.m_Gameplay_01_Action_06;
+        public InputAction @Action_00 => m_Wrapper.m_Gameplay_01_Action_00;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay_01; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -271,9 +271,6 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_Gameplay_01ActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_Gameplay_01ActionsCallbackInterfaces.Add(instance);
-            @Action_00.started += instance.OnAction_00;
-            @Action_00.performed += instance.OnAction_00;
-            @Action_00.canceled += instance.OnAction_00;
             @Action_01.started += instance.OnAction_01;
             @Action_01.performed += instance.OnAction_01;
             @Action_01.canceled += instance.OnAction_01;
@@ -292,13 +289,13 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
             @Action_06.started += instance.OnAction_06;
             @Action_06.performed += instance.OnAction_06;
             @Action_06.canceled += instance.OnAction_06;
+            @Action_00.started += instance.OnAction_00;
+            @Action_00.performed += instance.OnAction_00;
+            @Action_00.canceled += instance.OnAction_00;
         }
 
         private void UnregisterCallbacks(IGameplay_01Actions instance)
         {
-            @Action_00.started -= instance.OnAction_00;
-            @Action_00.performed -= instance.OnAction_00;
-            @Action_00.canceled -= instance.OnAction_00;
             @Action_01.started -= instance.OnAction_01;
             @Action_01.performed -= instance.OnAction_01;
             @Action_01.canceled -= instance.OnAction_01;
@@ -317,6 +314,9 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
             @Action_06.started -= instance.OnAction_06;
             @Action_06.performed -= instance.OnAction_06;
             @Action_06.canceled -= instance.OnAction_06;
+            @Action_00.started -= instance.OnAction_00;
+            @Action_00.performed -= instance.OnAction_00;
+            @Action_00.canceled -= instance.OnAction_00;
         }
 
         public void RemoveCallbacks(IGameplay_01Actions instance)
@@ -336,12 +336,12 @@ public partial class @StandardControls: IInputActionCollection2, IDisposable
     public Gameplay_01Actions @Gameplay_01 => new Gameplay_01Actions(this);
     public interface IGameplay_01Actions
     {
-        void OnAction_00(InputAction.CallbackContext context);
         void OnAction_01(InputAction.CallbackContext context);
         void OnAction_02(InputAction.CallbackContext context);
         void OnAction_03(InputAction.CallbackContext context);
         void OnAction_04(InputAction.CallbackContext context);
         void OnAction_05(InputAction.CallbackContext context);
         void OnAction_06(InputAction.CallbackContext context);
+        void OnAction_00(InputAction.CallbackContext context);
     }
 }

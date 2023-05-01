@@ -39,6 +39,12 @@ public class Random_Movement: MonoBehaviour
         if (transform.position == endMarker)
         {
             animal.GetComponent<Animator>().enabled = false;
+            x_dir = Random_Distance();
+            z_dir = Random_Distance();
+            startMarker = animal.transform.position;
+            endMarker = animal.transform.position + new Vector3(x_dir, 0f, z_dir);
+            currentLerpTime = 0;
+            key = false;
         }
 
         if (key == true)
@@ -52,12 +58,7 @@ public class Random_Movement: MonoBehaviour
             animal.transform.position = Vector3.Lerp(startMarker, endMarker, Perc);
         }
 
-        //if (animal.GetComponent<SphereCollider>() == null)
-       // {
-         //   SphereCollider sc = animal.AddComponent<SphereCollider>();
-           // sc.isTrigger = true;
-            //sc.radius = 5;
-        //}
+        
     }
    
     // Random_Distance function picks a random number from -50 to 50, which will be used to set x_dir and z_dir for the addition of the 
@@ -73,18 +74,14 @@ public class Random_Movement: MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             key = true;
+            animal.GetComponent<Animator>().enabled = true;
             animal.GetComponent<Animator>().Play("run");
             Vector3 direction = endMarker - startMarker;
             Quaternion rotation = Quaternion.LookRotation(direction);
             transform.rotation = rotation;
-            //Destroy(animal.GetComponent<SphereCollider>());
-
         }
     }
 
-    void OnTriggerExit(Collider other)
-    {
-
-    }
+    
 
 }

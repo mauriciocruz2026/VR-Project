@@ -5,7 +5,7 @@ using UnityEngine;
 public class Object_Health : MonoBehaviour
 {
     public int maxHealth;
-    private int currHealth; 
+    public int currHealth; 
     public State object_State = State.ALIVE;
     public float sinkSpeed;
     private int delay;
